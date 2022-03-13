@@ -1,0 +1,218 @@
+/*fontes*/
+@import url('http://fonts.cdnfonts.com/css/harry-potter');
+@import url('http://fonts.cdnfonts.com/css/harrypotter7');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+/*body inicial*/
+*{   
+    margin: 0;
+    padding: 0;
+}
+
+/*harry potter*/
+h2{
+    font-family:'Harry Potter', sans-serif;
+    font-size: 35px;
+    cursor: pointer;
+    color: #fff;        
+    letter-spacing: 3px;
+}
+
+/*home*/
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)), url(background.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.houses ul li{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin: 20px;    
+}
+
+.houses{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.houses ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;        
+}
+
+.houses ul li::after{
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    color: #fff;
+    text-shadow: 0px 0px 10px #fff;
+}
+
+.houses ul li:hover::after{
+    width: 100%;
+}
+
+                                            
+ .text h1{
+    font-family: 'HarryPotter7', sans-serif;        
+    color: white;  
+    font-size: 60px;
+    margin-top:178px;  
+    text-align: center;
+    text-transform: uppercase;  
+    transition: all 1.8s;
+    text-shadow: 0px 0px 10px #fff;
+ }
+
+ .text h1:hover{
+     letter-spacing: 40px;
+     opacity: -3;
+ }
+
+ .griffindor{
+    background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)), url(grifinoria.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: #fff; 
+ }
+
+.griffindor h3{
+    font-family: 'HarryPotter7', sans-serif; 
+    font-size: 30px;
+    padding: 30px;   
+}
+
+.descriptionG{
+    width: 390px;
+    height: 160px;    
+    font-family: 'Dosis', sans-serif;    
+    font-size: 20px;
+    padding: 30px;    
+}
+
+.ravenclaw{
+    background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)), url(ravenclaw.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: #fff; 
+ }
+
+.ravenclaw h3{
+    font-family: 'HarryPotter7', sans-serif; 
+    font-size: 30px;
+    padding: 30px;
+    text-align: end;
+}
+
+.descriptionR {
+    position: absolute;
+    right: 0px;
+    width: 390px;
+    height: 160px;
+    font-size: 20px;    
+    padding: 30px;
+    text-align: end;
+    font-family: 'Dosis', sans-serif;  
+}
+
+.hufflepuff{
+    background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)), url(hufflepuff.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: #fff; 
+ }
+
+.hufflepuff h3{
+    font-family: 'HarryPotter7', sans-serif; 
+    font-size: 30px;
+    padding: 30px;    
+}
+
+.descriptionH {    
+    width: 390px;
+    height: 160px;
+    font-size: 20px;    
+    padding: 30px;    
+    font-family: 'Dosis', sans-serif;  
+}
+.slytherin{
+    background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)), url(Slytherin.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: #fff; 
+ }
+
+.slytherin h3{
+    font-family: 'HarryPotter7', sans-serif; 
+    font-size: 30px;
+    padding: 30px;   
+    text-align: end; 
+}
+
+.descriptionS {    
+    width: 390px;
+    height: 160px;
+    font-size: 20px;    
+    padding: 30px;    
+    font-family: 'Dosis', sans-serif;  
+    position: absolute;
+    right: 0px;
+    text-align: end;
+}
+
+.quote{
+    background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)), url(hpp.gif);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;    
+    font-family: 'HarryPotter7';
+    text-align: center;      
+}
+
+.quote h4{
+    padding: 40px;
+    font-size: 30px;
+    color: #fff; 
+    text-shadow: 0px 0px 10px #fff;
+    letter-spacing: 3px;
+}
+
+#quoteDisplay{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    color: #fff; 
+    padding: 170px;   
+    font-size: 30px;
+    text-shadow: 1px 1px 10px #000;
+}
+
+.btn-primary{
+    margin: 20px;    
+    background: #fff;
+    border-color: #fff;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
